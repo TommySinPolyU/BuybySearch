@@ -1,0 +1,19 @@
+@media screen and (max-width: 1000px) {
+
+  #register_form input[type=text],#login_form input[type=text],input[type=password],input[type="date"],#register_form select, #postform input[type=number],#post_type, #post_Title{
+    width: 100%;
+  }
+
+  #image_reupload_btn, #image_reupload_btn_cancel{
+    text-align:center;
+  }
+
+  
+  #postform textarea{
+    width: 100%;
+  }
+  
+  #postform input[type=number]{
+    width: 100%;
+  }
+}

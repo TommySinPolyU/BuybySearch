@@ -1,0 +1,177 @@
+@media screen and (max-width: 1000px) {
+  #cart-icon{
+    display: block;
+    color: black;
+    margin-top: -17px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #notification_icon{
+    display: block;
+    color: black;
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #login-container, #login-msg-container{
+    display: none;
+    background-color: #fff;
+    border: 3px solid #000;
+    color: #000;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    text-align: center;
+    z-index: 102;
+    width: 100%;
+    height: 310px; 
+    margin-top: -125px;
+  }
+
+  #addvalue-container{
+    display: none;
+    background-color: #fff;
+    border: 3px solid #000;
+    color: #000;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    text-align: center;
+    z-index: 102;
+    width: 100%;
+    height: 600px; 
+    margin-top: -300px;
+  }
+
+  #searchbar input[type=text]{
+    width: 100%;
+  }
+
+  #searchbar select{
+    width: 100%;
+  }
+
+  #searchbar button{
+    width: 100%;
+  }
+
+#searchbar input[type=text]:focus{
+	width: 100%;
+}
+
+  .lanregion{
+    float: left;
+    text-align:center;
+    margin-top: -12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .navbar .logo{
+    display: block;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    float: none;
+    margin-left: 0;
+  }
+
+  .navbaritem a:hover {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #000;
+  }
+  
+  .navbar-text{
+    display: block;
+    color: black;
+    text-align: center;
+    margin-left:unset;
+    margin-right:unset;
+    padding:unset;
+    text-decoration:none;
+  }
+
+  .navbar{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: unset;
+    padding-right: unset;
+    padding-bottom: unset;
+    background-color: #fff;
+  }
+      
+  .navbar .leftmenu-icon {
+    float: left;
+    display: block;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+      
+  .navbar .usermenu-icon {
+    content:url('../images/user_bgwhite.png');
+    float: right;
+    display: block;
+    margin-top: -17px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .leftmenu {
+    float: left;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 127px;
+    left: 0; 
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .leftmenu li {
+    float: left;
+  }
+  
+  .leftmenu a {
+    padding: 8px 80px 8px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+    display: block;
+    color: white;
+  }
+  
+  .leftmenu a:hover {
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #000;
+    color: white;
+  }
+      
+  .usermenu {
+    top: 127px;
+  }
+
+  #cover{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top:0;
+    left: 0;
+  }
+
+}

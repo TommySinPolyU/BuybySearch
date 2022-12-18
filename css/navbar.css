@@ -1,0 +1,227 @@
+.logo{
+  float: left;
+  color: black;
+  text-align: center;
+  margin-top:18px;
+  margin-left:20px;
+  margin-right:20px;
+  text-decoration: none;
+}
+
+#searchbar{
+	padding: 5px 5px;
+  text-align: center;
+}
+
+#searchbar input[type=text]{
+	width: 400px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 3px;
+  font-size: 16px;
+  background-image: url('../images/search.png');
+	background-color: white;
+	background-position: 10px 13px; 
+	background-repeat: no-repeat;
+	padding: 20px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+#searchbar select{
+	width: 200px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 3px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('../images/search.png');
+	background-position: 10px 13px; 
+	background-repeat: no-repeat;
+	padding: 20px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+#searchbar button{
+	width: 100px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 3px;
+	font-size: 16px;
+	background-color: white;
+	padding: 20px 0px 12px 0px;
+	-webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  text-align: center;
+}
+
+#searchbar input[type=text]:focus{
+	width: 60%;
+}
+
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  background-color: #fff;
+}
+
+.navbaritem {
+  float: left;
+}
+
+.navbar-image {
+  display: block;
+  color: black;
+  text-align: center;
+  margin-top:5px;
+  margin-left:5px;
+  margin-right:5px;
+  padding:5px;
+  text-decoration:none;
+}
+
+.navbar-text, .navbar-text-right{
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration:none;
+}
+
+.navbar-text{
+  margin-top:15px;
+  margin-left:15px;
+  margin-right:15px;
+  padding:5px;
+}
+
+.navbar-text-right{
+  margin-top:15px;
+}
+
+.navbaritem a, .navbar-text, .navbar-image, #cart-icon, #notify-icon{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.navbar-text:hover, .navbar-image:hover, #cart-icon:hover, #notify-icon:hover{
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #ccefff;
+  color: black;
+}
+
+#cart-icon, #notify-icon{
+	display: block;
+	color: black;
+	text-align: center;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	padding:5px;
+	text-decoration:none;
+}
+
+.lanregion{
+  float: right;
+	text-align:center;
+	margin-top:10px;
+	margin-right:15px;
+}
+
+.navbar .leftmenu-icon, .leftmenu a.leftmenu-icon-close, .usermenu a.usermenu-icon-close {
+  display: none;
+}
+
+.navbar .usermenu-icon{
+	display: block;
+	color: black;
+	text-align: center;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	padding:5px;
+	text-decoration:none;
+}
+
+.style-two {
+	position: Relative;
+	border: 0;
+	height: 1px;
+	color: #000;
+  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.usermenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 83px;
+  right: 0; 
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.navbar-text-right{
+  float: right;
+  padding: 8px 10px 8px 50px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  display: block;
+  color: white;
+}
+
+#menu-userdata{
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  color:white;
+  margin-top: 64px;
+  margin-left: 8px;
+  margin-right: 8px;
+  white-space: pre-line;
+}
+
+.usermenu-close-icon{
+  float:right;
+}
+
+.leftmenu-close-icon{
+  float:left;
+  display: none;
+}
+
+.usermenu-close-icon, .leftmenu-close-icon {
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+  display: block;
+  background-color: #000;
+  border: none;
+}
+
+.usermenu-close-icon:hover, .leftmenu-close-icon:hover  {
+  border: 3px solid #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #000;
+  color: white;
+}
+
+.usermenu a:hover, #logoutbtn:hover {
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #000;
+  color: white;
+}
