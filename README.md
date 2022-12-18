@@ -14,14 +14,14 @@ Programming Language: PHP\
 Development Device OS: Windows 10
 
 ## ScreenShots
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/Home.png" width=350>
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/SearchResult.png" width=350>
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/MyPost.png" width=350>
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/Cart.png" width=350>
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/Send_Message.png" width=350>
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/MailBox_In.png" width=350>
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/MailBox_Out.png" width=350>
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/Confirm_Trader.png" width=350>
-<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/MessageForConfirm.png" width=350>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/Home.png" width=600>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/SearchResult.png" width=600>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/MyPost.png" width=600>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/Cart.png" width=600>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/Send_Message.png" width=600>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/MailBox_In.png" width=600>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/MailBox_Out.png" width=600>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/Confirm_Trader.png" width=600>
+<img src="https://github.com/TommySinPolyU/BuybySearch/blob/main/screenshots/MessageForConfirm.png" width=600>
 
 
